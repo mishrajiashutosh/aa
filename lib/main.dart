@@ -54,7 +54,10 @@ class _HomePageState extends State<HomePage> {
                 gradient: LinearGradient(
                     begin: Alignment.topCenter,
                     end: Alignment.bottomCenter,
-                    colors: [Color(0xff32B8BB), Colors.black])),
+                    colors: [
+                  Color(0xff32B8BB),
+                  Colors.black,
+                ])),
             child: Center(
                 child: Text(
               'Drowsiness Detector',
@@ -118,7 +121,7 @@ class _HomePageState extends State<HomePage> {
                   height: 10,
                 ),
                 GestureDetector(
-                  onTap: () => launchPhone('tel: 6003921488'),
+                  onTap: () => launchPhone('tel: 8765247103'),
                   child: Container(
                     child: Center(
                       child: Icon(Icons.phone),
